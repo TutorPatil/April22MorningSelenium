@@ -1,0 +1,38 @@
+https://demo.actitime.com/login.do
+https://www.flipkart.com/samsung-mobile-store?otracker=nmenu_sub_Electronics_0_Samsung
+
+//input[@id='username']
+
+//input[@name='pwd']
+
+//input[@id='keepLoggedInCheckBox']
+
+//a[@id='toPasswordRecoveryPageLink']
+
+//table[@class='footer']/tbody/tr/td[1]/nobr
+
+//a[@href='http://www.actitime.com']
+
+
+//a[text()='actiTIME Inc.']
+
+//td[text()='Please identify yourself']
+
+//td[contains(text(),'Please identify')]
+
+//div[contains(@id,'whiteBoxWith')]
+
+(//input[contains(@class,'textField')])[1]
+
+//input[@name='pwd']/../../../tr[1]/td/input
+
+//a[contains(text(),'SAMSUNG Galaxy A73 5G (Awesome White, 128 GB)')]/../../div[2]/div/div[1]
+
+
+
+
+
+
+
+
+
