@@ -1,0 +1,60 @@
+https://demo.actitime.com/login.do
+https://www.flipkart.com/samsung-mobile-store?otracker=nmenu_sub_Electronics_0_Samsung
+
+//input[@id='username']
+
+//input[@name='pwd']
+
+//input[@id='keepLoggedInCheckBox']
+
+//a[@id='toPasswordRecoveryPageLink']
+
+//table[@class='footer']/tbody/tr/td[1]/nobr
+
+//a[@href='http://www.actitime.com']
+
+
+//a[text()='actiTIME Inc.']
+
+//td[text()='Please identify yourself']
+
+//td[contains(text(),'Please identify')]
+
+//div[contains(@id,'whiteBoxWith')]
+
+(//input[contains(@class,'textField')])[1]
+
+//input[@name='pwd']/../../../tr[1]/td/input
+
+//a[contains(text(),'SAMSUNG Galaxy A73 5G (Awesome White, 128 GB)')]/../../div[2]/div/div[1]
+
+=============================
+
+//td[text()='Ramu']/../td[4]/a
+
+//a[@href='https://mail.yahoo.com'][@id='forgotlink']
+//a[@href='https://mail.yahoo.com' and @id='forgotlink']
+
+Axes Functions
+
+//td[text()='Ramu']/following-sibling::*
+//td[text()='Ramu']/preceding-sibling::*
+
+
+//td[text()='Ramu']/preceding::*
+//td[text()='Ramu']/preceding::a
+
+//td[text()='Ramu']/following::*
+//td[text()='Ramu']/following::a
+
+//td[text()='Ramu']/parent::*
+//td[text()='Ramu']/../
+
+//td[text()='Ramu']/ancestor::*
+//td[text()='Ramu']/ancestor-or-self::*
+
+
+//td[text()='Ramu']/../descendant::*
+//td[text()='Ramu']/../descendant-or-self::*
+
+//td[text()='Ramu']/..//a  -- WRT the context node any where below that
