@@ -113,7 +113,7 @@ public class April19_Selenium {
 		String linkText = driver.findElement(By.xpath("//a[@id='toPasswordRecoveryPageLink']")).getText();
 		System.out.println(linkText);
 	}
-	
+	//Comment
 	
 	public static void launchActiTimeApplication()
 	{
