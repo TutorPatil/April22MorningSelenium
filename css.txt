@@ -1,0 +1,36 @@
+Xpath ============================================== Css
+						
+//input[@id='username']						input[id='username']
+//input[@id='username']                     input#username    [ For Id short cut key is # ]
+
+//input[@id='username']                     #username
+//input[@name='pwd']                        input[name='pwd']
+
+//input[@class='textField pwdfield']        input[class='textField pwdfield']
+
+//table[@class='footer']                    table[class='footer']
+         								    table.'footer' 
+											.footer
+
+
+//table[@class='footer']/tbody/tr[1]/td[2]--table.footer tbody tr:nth-child(1) td:nth-child(2)
+											table.footer tbody tr:first-child td:last-child
+											table.footer>tbody>tr:first-child>td:last-child
+											
+//input[contains(@id,'userna')]           input[id*='user']											
+
+ [ No // in css - By default it is anywhere in the document 
+  No need to use @
+  For Id short cut is #
+  For class short cut is . ( dot ]
+  To seperate parent and child use ">" or space
+  functions = nth-child(2)
+  first-child
+  last-child
+  
+  CSS DOES NOT SUPPORT TEXT BASED IDENTIFICATION
+  
+  CAN'T NAVIGATE FROM CHILD TO PARENT TAG ( .. IS NOT SUPPORTED )
+  
+  For contains we  use * in css
+  
