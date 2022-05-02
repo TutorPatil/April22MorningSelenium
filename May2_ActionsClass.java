@@ -30,7 +30,7 @@ public class May2_ActionsClass extends BaseClass{
 	
 	WebElement itemToDrag = driver.findElement(By.xpath("//div[@class='trash']/../img[1]"));
 	
-	actions.dragAndDrop(whereToDrop, itemToDrag).build().perform();
+	actions.dragAndDrop(itemToDrag,whereToDrop).build().perform();
 	
 	
 	
